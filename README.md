@@ -2,7 +2,7 @@
 
 A prototype of the agro-ecopolis website, which is a project of P. O. R. T. (Territorial Development Project Office)
 
-Project about the settlement that will promote the technologies prioritize for agriculture and other.
+Project about education/training that will promote and help technologies for villages and other settlements that demonstrate life with nature using "green" technologies and most modern advances in science and technologies.
 
 Read more you can here (only on russian): https://idea.asi.ru/improject-55/ideas/513
 
