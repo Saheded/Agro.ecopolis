@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url("../Resources/Fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+html {
+    background-color: #F3E9D2;
+    font-family: Comfortaa;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    align-items: center;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    width: 375px;
+    height: 125px;
+    transition: 100ms ease-in-out;
+    background-image: url("../Resources/Imgs/svg/AgroEcoPolis-logo-detailed-minimal-extended.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    .logo:hover {
+        background-image: url("../Resources/Imgs/svg/AgroEcoPolis-logo-detailed-minimal-extended-hovering.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    marker: none;
+}
+
+.navigation {
+    background-color: #1A936F;
+    display: grid;
+    grid-template-columns: 375px 1fr;
+    align-items: center;
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    column-gap: 25px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navigation-item {
+    margin: 2px;
+    width: max-content;
+    text-align: center;
+    background-color: #C6DABF;
+    border-radius: 23px;
+    transition: 100ms ease-in-out;
+}
+    .navigation-item:hover {
+        background-color: #88D498;
+        box-shadow: 0px 0px 10px #000000;
+    }
+
+.navigation-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1vw;
+    margin: 0.5vw;
+    padding: 1vw;
+}
+
+.infoblock {
+    width: 100%;
+}
+
+.about-block {
+    padding: 200px 0px 0px 0px;
+    background-image: url("../Resources/Imgs/jpg, png/Earth-City-J.M.-Schivo-Associati-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-minimal {
+    display: grid;
+    padding: 0;
+    margin: 0 auto 0 auto;
+}
+
+.logo-minimal-shadow {
+    box-shadow: #000 0px 0px 31px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: hard-light;
+}
+
+.tagline {
+    color: white;
+    width: 100%;
+    margin: 150px auto 0px auto;
+    font-size: 24px;
+    font-weight: 500;
+    box-shadow: #000 0px 0px 31px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: hard-light;
+}
+
+.description {
+    text-align: center;
+    padding: 0;
+    width: 60vw;
+    font-size: 24px;
+    margin: 50px auto 50px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.service-list {
+    background-color: #2b2b2b;
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    flex-wrap: wrap;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.service-item {
+    margin: 0;
+    background-color: #e7e4e3;
+    position: center;
+    outline: 1px solid #d6d0cb;
+    width: auto;
+    height: inherit;
+    text-align: center;
+}
+
+.service-text {
+    padding: 0;
+    margin: auto;
+    font-size: 20px;
+    height: max-content;
+    width: max-content;
+}
+
+.service-text-item {
+    padding: 0;
+    width: 500px;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+    .service-text-item:nth-child(1) {
+        border-top: 1px solid #2b2b2b;
+    }
+
+.line-after-main {
+    background-color: #301a90;
+    padding-bottom: 10px;
+    padding-left: 100%;
+}
+
+.request {
+    background-color: #2b2b2b;
+    padding: 10px;
+}
+
+.request-header {
+    margin: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.request-form {
+    width: max-content;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.message-textbox {
+    height: 8em;
+}
+
+.textbox {
+    width: 70vw;
+}
+
+.button {
+    width: 200px;
+    justify-content: left;
+    text-align: left;
+}
+
+footer {
+    color: #AAA;
+    background-color: #2b2b2b;
+    padding-bottom: 20px;
+}
+
+.credits {
+    padding-top: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.blockquote {
+    font-style: oblique;
+}
+
+.credits-link {
+    display: block;
+    text-decoration: unset;
+    color: inherit;
+    text-shadow: 10px -5px 3px #AAA,0 0 1em #AAA;
+    transition: 100ms ease-out;
+    font-size: inherit;
+    margin: auto;
+    width: max-content;
+    justify-content: center;
+}
+
+    .credits-link:hover {
+        color: rgb(0, 195, 255);
+        text-shadow: 10px -5px 3px rgb(0, 183, 233),0 0 1em rgb(0, 205, 255);
+    }
